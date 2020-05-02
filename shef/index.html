@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Shef</title>
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+<div id="main">
+    <div id="header">
+        <div id="burger">&#9776;</div>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="for-i-cross">
+            <i class="fas fa-times"></i>
+        </div>
+        <div id="menu">
+            <div class="menu-item">
+                <a href="#features">Гарантии</a>
+            </div>
+            <div class="menu-item">
+                <a href="#stock">Портфолио</a>
+            </div>
+            <div class="menu-item">
+                <a href="#facts">Преимущества</a>
+            </div>
+            <div class="menu-item">
+                <a href="#reviews">Отзывы</a>
+            </div>
+            <div class="menu-item">
+                <a href="#footer">Контакты</a>
+            </div>
+        </div>
+    </div>
+    <div id="titles">
+        <div id="title-main">
+            <h1>Изготавливаем элитные кухни немецкого качества</h1>
+        </div>
+        <div id="title-text">
+            <div id="title-img">
+                <img src="images/key.png" alt="">
+            </div>
+            <p>«под ключ» по европейским стандартам
+                и по индивидуальному дизайну</p>
+        </div>
+        <div id="calculate">
+            <button class="open-modal">Рассчитать стоимость</button>
+        </div>
+        <div id="title-advantages">
+            <ul>
+                <li>Гарантия 25 лет!</li>
+                <li>Бесплатный замер</li>
+                <li>Удаленный расчет</li>
+            </ul>
+        </div>
+    </div>
+    <div class="social-networks">
+        <div class="fb">
+            <a href="https://facebook.com">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="30px" height="30px" viewBox="0 0 96.124 96.123"
+                     style="enable-background:new 0 0 96.124 96.123;"
+                     xml:space="preserve">
+<g>
+	<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+		c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+		c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+		c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+                    <g>
+</g>
+</svg>
+
+            </a>
+        </div>
+        <div class="insta">
+            <a href="https://instagram.com">
+                <svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm-117.40625 395.996094c-77.195312 0-139.996094-62.800782-139.996094-139.996094s62.800782-139.996094 139.996094-139.996094 139.996094 62.800782 139.996094 139.996094-62.800782 139.996094-139.996094 139.996094zm143.34375-246.976563c-22.8125 0-41.367188-18.554687-41.367188-41.367187s18.554688-41.371094 41.367188-41.371094 41.371094 18.558594 41.371094 41.371094-18.558594 41.367187-41.371094 41.367187zm0 0"/>
+                    <path d="m256 146.019531c-60.640625 0-109.980469 49.335938-109.980469 109.980469 0 60.640625 49.339844 109.980469 109.980469 109.980469 60.644531 0 109.980469-49.339844 109.980469-109.980469 0-60.644531-49.335938-109.980469-109.980469-109.980469zm0 0"/>
+                    <path d="m399.34375 96.300781c-6.257812 0-11.351562 5.09375-11.351562 11.351563 0 6.257812 5.09375 11.351562 11.351562 11.351562 6.261719 0 11.355469-5.089844 11.355469-11.351562 0-6.261719-5.09375-11.351563-11.355469-11.351563zm0 0"/>
+                </svg>
+            </a>
+        </div>
+        <div class="vk">
+            <a href="https://vk.com">
+                <svg id="Bold" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="512"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="m19.915 13.028c-.388-.49-.277-.708 0-1.146.005-.005 3.208-4.431 3.538-5.932l.002-.001c.164-.547 0-.949-.793-.949h-2.624c-.668 0-.976.345-1.141.731 0 0-1.336 3.198-3.226 5.271-.61.599-.892.791-1.225.791-.164 0-.419-.192-.419-.739v-5.105c0-.656-.187-.949-.74-.949h-4.126c-.419 0-.668.306-.668.591 0 .622.945.765 1.043 2.515v3.797c0 .832-.151.985-.486.985-.892 0-3.057-3.211-4.34-6.886-.259-.713-.512-1.001-1.185-1.001h-2.625c-.749 0-.9.345-.9.731 0 .682.892 4.073 4.148 8.553 2.17 3.058 5.226 4.715 8.006 4.715 1.671 0 1.875-.368 1.875-1.001 0-2.922-.151-3.198.686-3.198.388 0 1.056.192 2.616 1.667 1.783 1.749 2.076 2.532 3.074 2.532h2.624c.748 0 1.127-.368.909-1.094-.499-1.527-3.871-4.668-4.023-4.878z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="features">
+    <div class="for-h2">
+        <img src="images/line-h2.png" alt="">
+        <h2 class="block-title">Мы гарантируем <span>&nbsp нашим клиентам</span></h2>
+    </div>
+    <div id="feature-items" class="wow zoomIn">
+        <div class="feature">
+            <div class="feature-title">
+                Качество высокого уровня
+            </div>
+            <div class="feature-text">
+                Кухни производятся на фабрике, оснащенной современным
+                итальянским оборудованием. Это значит, что Ваша кухня
+                будет сделана с ювелирной точностью - все детали
+                выполнены ровно по размеру.
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-title">
+                Гарантию надежности
+            </div>
+            <div class="feature-text">
+                Гарантия на кухонный гарнитур и ассесуары - 25 лет!
+                Если за это время Вы обнаружите недостатки, <br>
+                мы устраняем их за свой счет.
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-title">
+                Отсутствие скрытых комиссий
+            </div>
+            <div class="feature-text">
+                Мы сразу называем конечную цену за гарнитур -
+                дополнительных расходов у Вас не будет. Вы платите
+                только за изготовление. Дизайн-проект, выезд
+                замерщика и дизайнера — это бесплатно.
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-title">
+                Твердые сроки
+            </div>
+            <div class="feature-text">
+                Вам не придется ждать новую кухню 2 месяца.
+                Сроки изготовления гарнитура отражены <br>
+                в нашем договоре.
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="stock">
+    <div class="for-h2">
+        <img src="images/line-h2.png" alt="">
+        <h2 class="block-title">Такие кухни мы реализовали<span>&nbsp для наших клиентов</span></h2>
+    </div>
+    <div id="about-us">
+        Каждый наш проект — уникальный и неповторимый. За всю историю существования нашей компании —
+        а это целых 11 лет — у нас еще не было ни одной похожей кухни. Ниже в нашем портфолио вы найдете
+        проекты, которыми мы очень гордимся.
+    </div>
+    <div id="products-container">
+        <div class="products">
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/kitchen1.png" alt="">
+                </div>
+                <div class="product-content">
+                    <div class="product-content-number">№15</div>
+                    <div class="product-content-title">
+                        Кухня в скандинавском стиле
+                    </div>
+                    <div class="product-content-description">
+                        <div class="characteristics">
+                            <span>Материал:</span>
+                            <span>Планировка:</span>
+                            <span>Скинали:</span>
+                            <span>Столешница:</span>
+                            <span>Размер кухни:</span>
+                        </div>
+                        <div class="characteristics-values">
+                            <span>пластик Феникс</span>
+                            <span>прямолинейная</span>
+                            <span>керамическая плитка</span>
+                            <span>постформинг Egger</span>
+                            <span>2200 x 2300 мм</span>
+                        </div>
+                    </div>
+                    <div class="product-content-properties">
+                        <div class="product-content-property">
+                            <img src="images/map-icon.png" alt="">
+                            <span>Москва</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/clock-icon.png" alt="">
+                            <span>2018 г.</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/ruble-icon.png" alt="">
+                            <span>239 000 руб.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/kitchen2.png" alt="">
+                </div>
+                <div class="product-content">
+                    <div class="product-content-number">№16</div>
+                    <div class="product-content-title">
+                        Кухня в стиле Loft
+                    </div>
+                    <div class="product-content-description">
+                        <div class="characteristics">
+                            <span>Материал:</span>
+                            <span>Планировка:</span>
+                            <span>Скинали:</span>
+                            <span>Столешница:</span>
+                            <span>Размер кухни:</span>
+                        </div>
+                        <div class="characteristics-values">
+                            <span>пластик Феникс</span>
+                            <span>прямолинейная</span>
+                            <span>керамическая плитка</span>
+                            <span>постформинг Egger</span>
+                            <span>2200 x 2300 мм</span>
+                        </div>
+                    </div>
+                    <div class="product-content-properties">
+                        <div class="product-content-property">
+                            <img src="images/map-icon.png" alt="">
+                            <span>Москва</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/clock-icon.png" alt="">
+                            <span>2019 г.</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/ruble-icon.png" alt="">
+                            <span>300 000 руб.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-image">
+                    <img src="images/kitchen3.png" alt="">
+                </div>
+                <div class="product-content">
+                    <div class="product-content-number">№17</div>
+                    <div class="product-content-title">
+                        Кухня в современном стиле стиле
+                    </div>
+                    <div class="product-content-description">
+                        <div class="characteristics">
+                            <span>Материал:</span>
+                            <span>Планировка:</span>
+                            <span>Скинали:</span>
+                            <span>Столешница:</span>
+                            <span>Размер кухни:</span>
+                        </div>
+                        <div class="characteristics-values">
+                            <span>пластик Феникс</span>
+                            <span>прямолинейная</span>
+                            <span>керамическая плитка</span>
+                            <span>постформинг Egger</span>
+                            <span>2200 x 2300 мм</span>
+                        </div>
+                    </div>
+                    <div class="product-content-properties">
+                        <div class="product-content-property">
+                            <img src="images/map-icon.png" alt="">
+                            <span>Москва</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/clock-icon.png" alt="">
+                            <span>2020 г.</span>
+                        </div>
+                        <div class="product-content-property">
+                            <img src="images/ruble-icon.png" alt="">
+                            <span>250 000 руб.</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="facts" class="wow zoomIn">
+    <div class="fact">
+        <div class="fact-img">
+            <img src="images/fact-img1.png" alt="">
+        </div>
+        <div class="fact-description">
+            Столко <span>лет</span> наша компания
+            находится на рынке
+        </div>
+    </div>
+    <div class="fact">
+        <div class="fact-img">
+            <img src="images/fact-img2.png" alt="">
+        </div>
+        <div class="fact-description">
+            Такое число <span>уникальных кухонь</span> <br>
+            мы создали за это время
+        </div>
+    </div>
+    <div class="fact">
+        <div class="fact-img">
+            <img src="images/fact-img3.png" alt="">
+        </div>
+        <div class="fact-description">
+            Столько <span>сотрудников</span> трудятся
+            для наших клиентов ежедневно
+        </div>
+    </div>
+</div>
+<div id="info">
+    <div class="for-h2">
+        <img src="images/line-h2.png" alt="">
+        <h2 class="block-title">Новая кухня с нами – <span>&nbsp это удобно!</span></h2>
+    </div>
+    <div id="info-blocks">
+        <div class="info-block">
+            <div class="info-title" style="margin-top: 30px">Дизайн-проект у вас дома</div>
+            <div class="info-description">Не нужно выкраивать время на поездки по
+                салонам. Дизайнер приедет к Вам домой,
+                привезет образцы материалов, снимет
+                замеры и вместе с Вами разработает проект.
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-title">Удаленный расчет</div>
+            <div class="info-description">Мы уточним ваши пожелания по телефону и
+                разработаем дизайн-проект удаленно. После этого
+                останется лишь снять точные замеры.
+            </div>
+        </div>
+        <div class="info-block">
+            <div class="info-title">Неограниченные изменения</div>
+            <div class="info-description">Мы бесплатно вносим в дизайн-проект столько
+                изменений, сколько потребуется для вашей
+                идеальной кухни.
+            </div>
+        </div>
+    </div>
+</div>
+<div id="guarantee">
+    <div id="guarantee-block">
+        <div id="guarantee-img">
+            <div class="guarantee-inner">
+                <div class="content1">
+                    <div id="count25">25</div>
+                    <div id="rotateText">лет</div>
+                </div>
+                <div class="content2">
+                    гарантия
+                </div>
+            </div>
+        </div>
+        <div class="guarantee-text">
+            Мы даем самую большую гарантию на наши кухни,
+            потому что мы производим их сами на своей собственной
+            фабрике и мы твердо уверены в их качестве.
+        </div>
+        <div class="guarantee-sign">
+            <div class="sign-text">
+                Основатель фабрики «Shef»,<br>
+                Андрей Демидченко
+            </div>
+            <div class="sign-img">
+                <img src="images/sign.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="reviews">
+    <div class="for-h2">
+        <img src="images/line-h2.png" alt="">
+        <h2 class="block-title"><span>Узнайте, что  </span> &nbsp наши клиенты говорят о нас</h2>
+    </div>
+    <div id="reviews-text">
+        Лучше всего о нашей работе могут рассказать видеоотзывы наших довольных клиентов!
+    </div>
+    <div class="views">
+
+        <div class="view">
+            <div class="view-video">
+                <iframe width="485" height="300" src="https://www.youtube.com/embed/NLZDrD3Asmc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="view-title">
+                Видеоотзыв о проекте №208
+            </div>
+        </div>
+        <div class="view">
+            <div class="view-video">
+                <iframe width="485" height="300" src="https://www.youtube.com/embed/hx_PkczqudM?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="view-title">
+                Видеоотзыв о проекте №213
+            </div>
+        </div>
+        <div class="view">
+            <div class="view-video">
+                <iframe width="485" height="300" src="https://www.youtube.com/embed/Fw9R5MOWdnQ?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="view-title">
+                Видеоотзыв о проекте №123
+            </div>
+        </div>
+        <div class="view">
+            <div class="view-video">
+                <iframe width="485" height="300" src="https://www.youtube.com/embed/TUrWAVt2BHA?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="view-title">
+                Видеоотзыв о проекте №135
+            </div>
+        </div>
+    </div>
+</div>
+<div id="cal-meter">
+    <div class="for-h2">
+        <img src="images/line-h2.png" alt="">
+        <h2 class="block-title">Вызовите замерщика<span>&nbsp на дом бесплатно!</span></h2>
+    </div>
+    <div class="cal-meter-text">
+        Мы приедем к вам домой, привезем образцы материалов, снимем замеры
+        и вместе с Вами разработаем дизайн-проект вашей кухни.
+    </div>
+    <div id="call-request">
+        <h3 class="block-title">
+            Заполните форму, <br>
+            и мы свяжемся с Вами в ближайшее время
+        </h3>
+        <p id="call-error">
+            Заполните правильно все поля!
+        </p>
+        <form action="" id="request" method="post">
+            <div class="request-input">
+                <input type="text" placeholder="Ваше имя" name="name" class="name">
+            </div>
+            <div class="request-input">
+                <input type="text" placeholder="+7 (___) ___ - __ - __" name="phone" class="phone">
+            </div>
+            <div class="request-input">
+                <input type="text" placeholder="Желаемая дата и время" name="time" class="time">
+            </div>
+            <div class="request-input request-button">
+                <button class="btn-request1" type="button">Вызвать замерщика</button>
+            </div>
+        </form>
+    </div>
+    <div id="request-img-bg">
+        <img src="images/meter-man.png" alt="">
+    </div>
+</div>
+<div id="footer">
+    <div id="footer-block">
+        <div class="footer-content logo-block">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="social-networks">
+                <div class="fb">
+                    <a href="https://facebook.com">
+                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             width="30px" height="30px" viewBox="0 0 96.124 96.123"
+                             style="enable-background:new 0 0 96.124 96.123;"
+                             xml:space="preserve">
+<g>
+	<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+		c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+		c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+		c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+                            <g>
+</g>
+</svg>
+
+                    </a>
+                </div>
+                <div class="insta">
+                    <a href="https://instagram.com">
+                        <svg viewBox="0 0 512.00096 512.00096" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm-117.40625 395.996094c-77.195312 0-139.996094-62.800782-139.996094-139.996094s62.800782-139.996094 139.996094-139.996094 139.996094 62.800782 139.996094 139.996094-62.800782 139.996094-139.996094 139.996094zm143.34375-246.976563c-22.8125 0-41.367188-18.554687-41.367188-41.367187s18.554688-41.371094 41.367188-41.371094 41.371094 18.558594 41.371094 41.371094-18.558594 41.367187-41.371094 41.367187zm0 0"/>
+                            <path d="m256 146.019531c-60.640625 0-109.980469 49.335938-109.980469 109.980469 0 60.640625 49.339844 109.980469 109.980469 109.980469 60.644531 0 109.980469-49.339844 109.980469-109.980469 0-60.644531-49.335938-109.980469-109.980469-109.980469zm0 0"/>
+                            <path d="m399.34375 96.300781c-6.257812 0-11.351562 5.09375-11.351562 11.351563 0 6.257812 5.09375 11.351562 11.351562 11.351562 6.261719 0 11.355469-5.089844 11.355469-11.351562 0-6.261719-5.09375-11.351563-11.355469-11.351563zm0 0"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="vk">
+                    <a href="https://vk.com">
+                        <svg id="Bold" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="512"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="m19.915 13.028c-.388-.49-.277-.708 0-1.146.005-.005 3.208-4.431 3.538-5.932l.002-.001c.164-.547 0-.949-.793-.949h-2.624c-.668 0-.976.345-1.141.731 0 0-1.336 3.198-3.226 5.271-.61.599-.892.791-1.225.791-.164 0-.419-.192-.419-.739v-5.105c0-.656-.187-.949-.74-.949h-4.126c-.419 0-.668.306-.668.591 0 .622.945.765 1.043 2.515v3.797c0 .832-.151.985-.486.985-.892 0-3.057-3.211-4.34-6.886-.259-.713-.512-1.001-1.185-1.001h-2.625c-.749 0-.9.345-.9.731 0 .682.892 4.073 4.148 8.553 2.17 3.058 5.226 4.715 8.006 4.715 1.671 0 1.875-.368 1.875-1.001 0-2.922-.151-3.198.686-3.198.388 0 1.056.192 2.616 1.667 1.783 1.749 2.076 2.532 3.074 2.532h2.624c.748 0 1.127-.368.909-1.094-.499-1.527-3.871-4.668-4.023-4.878z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-2content">
+
+            <div class="footer-content">
+                <p class="footer-content-title">Наш офис находится по адресу:</p>
+                <p class="footer-content-description">г. Москва, ул. Фруктовая, 11 (строение 1)</p>
+            </div>
+            <div class="footer-content">
+                <p class="footer-content-title">Мы работаем:</p>
+                <p class="footer-content-description">Ежедневно, с 9:00 до 20:00</p>
+            </div>
+            <div class="footer-content contacts">
+                <div>
+                    <img class="span-img" src="images/phone-icon.png" alt="">
+                    <a href="tel:+7 (925) 877 77 65">+7 (925) 877 77 65</a>
+                </div>
+                <div>
+                    <img class="span-img" src="images/email-icon.png" alt="">
+                    <a href="mailto:shef@gmail.com">shef@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer-rectangle">
+    </div>
+    <div id="end">Все права защищены, 2019</div>
+</div>
+<div id="popup-container">
+    <div id="popup">
+        <div class="popup-title">Заказать звонок</div>
+        <div class="popup-description">Оставьте заявку и наш менеджер свяжется с Вами в течение 10 минут.</div>
+        <div id="form-container">
+            <div class="popup-phone-bg">
+                <img src="images/popup-phone-bg.png" alt="">
+            </div>
+            <div id="form-cont">
+                <form action="" id="popup-request" method="post">
+                    <p id="request-error">
+                        Заполните правильно все поля!
+                    </p>
+                    <div class="request-input">
+                        <input type="text" placeholder="Ваше имя" name="name" class="name1">
+                    </div>
+                    <div class="request-input">
+                        <input type="text" placeholder="+7 (___) ___ - __ - __" name="phone1" class="phone1">
+                    </div>
+                    <div class="request-input request-button">
+                        <button class="btn-request" type="button">Заказать звонок</button>
+                    </div>
+                    <div class="agree">
+                        Нажимая на кнопку, Вы соглашаетесь
+                        с <a href="#">Персональной обработкой данных</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
